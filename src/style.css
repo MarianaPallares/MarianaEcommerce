@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100vh;
+}
+header {
+  background-color: green;
+  font-size: 2rem;
+}
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+a {
+  padding: 15px;
+}
